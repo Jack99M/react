@@ -87,7 +87,7 @@ function ConoInteractivo() {
 
   useFrame((_, delta) => {
     if (meshRef.current) {
-      meshRef.current.rotation.x += delta * 1.2
+      meshRef.current.rotation.x += delta * 1.8
     }
   })
 
